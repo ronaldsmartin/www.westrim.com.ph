@@ -11,8 +11,10 @@ WIP site redesign for www.westrim.com.ph, built with [Hugo](https://gohugo.io) a
 ### Download a copy
 
   ```
-  $ git clone https://github.com/ronaldsmartin/www.westrim.com.ph.git
+  $ git clone --recursive https://github.com/ronaldsmartin/www.westrim.com.ph.git
   ```
+
+  The `--recursive` flag is used in order to pull down the Creative theme submodule.
   
 ### Run locally
 
