@@ -108,7 +108,7 @@ copyright = "© 2016 WestRim, Inc. All rights reserved."
 		headline = "Let's connect"
 		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
 		summary = """\
-		WestRim, Inc. is an engineering design firm providing consulting services in MEP design since 2008.<br>\
+		**WestRim, Inc.** is an engineering design firm providing consulting services in MEP design since 2008.<br>\
 		We are a subsidiary of [CB Engineers](http://cbengineers.com) proudly located in Metro Manila, Philippines.
 		"""
 		address = """\
@@ -118,4 +118,5 @@ Pasig City 1605<br>
 Metro Manila, Philippines<br>
 		"""
 		phone = "(63 2) 914 04 64"
+		fax = "(63 2) 914 04 66"
 		email = "info@westrim.com.ph"

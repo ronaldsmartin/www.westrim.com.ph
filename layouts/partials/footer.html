@@ -20,11 +20,17 @@
 						</address>
 						{{ end }}
 						<!-- Phone -->
-						{{ with .Site.Params.contact.phone }}
 						<address>
+							{{ with .Site.Params.contact.phone }}
 							<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
+							{{ end }}
+							{{ if and (isset .Site.Params.contact "fax") (isset .Site.Params.contact "phone") }}
+							<br>
+							{{ end }}
+							{{ with .Site.Params.contact.fax }}
+							<i class="fa fa-fax" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
+							{{ end }}
 						</address>
-						{{ end }}
 						<!-- Email -->
 						{{ with .Site.Params.contact.email }}
 						<strong>General Inquiries</strong>
