@@ -3,13 +3,6 @@
 	<section id="mainFooter">
 		<div class="container">
 			<div class="row">
-				{{ with .Site.Params.contact.summary }}
-				<div class="col-sm-5">
-					<div class="footerWidget">
-					{{ markdownify . }}
-					</div>
-				</div>
-				{{ end }}
 				<div class="col-sm-4">
 					<div class="footerWidget">
 						<strong>{{ .Site.Params.name }}</strong>
@@ -40,6 +33,13 @@
 						{{ end }}
 					</div>
 				</div>
+				{{ with .Site.Params.contact.summary }}
+				<div class="col-sm-5">
+					<div class="footerWidget">
+					{{ markdownify . }}
+					</div>
+				</div>
+				{{ end }}
 			</div>
 		</div>
 	</section>
