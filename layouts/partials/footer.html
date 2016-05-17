@@ -1,0 +1,62 @@
+{{ "<!-- FOOTER -->" | safeHTML }}
+<footer id="footerWrapper">
+	<section id="mainFooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="footerWidget">
+						<strong>{{ .Site.Params.name }}</strong>
+						<!-- Address -->
+						{{ with .Site.Params.contact.address }}
+						<address>
+							<i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
+						</address>
+						{{ end }}
+						<!-- Phone -->
+						<address>
+							{{ with .Site.Params.contact.phone }}
+							<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
+							{{ end }}
+							{{ if and (isset .Site.Params.contact "fax") (isset .Site.Params.contact "phone") }}
+							<br>
+							{{ end }}
+							{{ with .Site.Params.contact.fax }}
+							<i class="fa fa-fax" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
+							{{ end }}
+						</address>
+						<!-- Email -->
+						{{ with .Site.Params.contact.email }}
+						<strong>General Inquiries</strong>
+						<address>
+							<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
+						</address>
+						{{ end }}
+					</div>
+				</div>
+				{{ with .Site.Params.contact.summary }}
+				<div class="col-sm-5">
+					<div class="footerWidget">
+					{{ markdownify . }}
+					</div>
+				</div>
+				{{ end }}
+			</div>
+		</div>
+	</section>
+	<section id="footerRights">
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<p>{{ markdownify .Site.Copyright }}<br></p>
+				</div>
+			</div>
+			{{ with .Site.Params.credits }}
+			<div class="row text-center">
+				<div class="col-md-12">
+					{{ markdownify . }}
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</section>
+</footer>

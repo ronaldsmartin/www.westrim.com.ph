@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
-        {{ partial "head.html" . }}
+        {{ partial "head" . }}
+        {{ partial "styles-head" . }}
         {{ partial "favicons" . }}
     </head>
     <body id="page-top">
@@ -16,6 +17,7 @@
         {{ partial "contact.html" . }}
 
         {{ partial "modals.html" . }}
+        {{ partial "footer" . }}
         {{ partial "js.html" . }}
     </body>
 </html>

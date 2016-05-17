@@ -1,0 +1,25 @@
+/*!
+ * Additional Styles
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+footer section {
+    padding: 25px 0;
+    text-align: initial;
+    background-color: #222;
+    color: #777;
+}
+
+#footerRights {
+    padding-bottom: 0px;
+    background-color: #333;
+    color: #999;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: Merriweather,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
