@@ -1,0 +1,8 @@
+name = "Manila"
+address = """\
+West Tower #805<br/>
+Philippine Stock Exchange Center<br/>
+Exchange Road, Ortigas Center, Pasig City<br/>
+Metro Manila, Philippines<br/>
+"""
+phone = "[+1 (415) 437–7330](tel:+14154377330)"
