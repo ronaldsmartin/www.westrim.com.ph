@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #08853A;
 }
 
 #about a {
@@ -103,7 +103,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #08853A;
 }
 
 .navbar-default .nav > li>a,
@@ -167,7 +167,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #08853A;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -283,7 +283,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(64,200,64,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
