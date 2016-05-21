@@ -101,7 +101,7 @@ copyright = "© 2016 [WestRim, Inc.](/) All rights reserved."
 
 		[params.aside.button]
 			text = "Contact WestRim"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+			link = "/contact"
 
 	# Contact section and footer
 	[params.contact]
@@ -112,10 +112,10 @@ copyright = "© 2016 [WestRim, Inc.](/) All rights reserved."
 		We are a subsidiary of [CB Engineers](http://cbengineers.com) proudly located in Metro Manila, Philippines.
 		"""
 		address = """\
-#805 West Tower, PSE Building<br>
-Exchange Road, Ortigas Center<br>
-Pasig City 1605<br>
-Metro Manila, Philippines<br>
+		#805 West Tower, PSE Building<br>\
+		Exchange Road, Ortigas Center<br>\
+		Pasig City 1605<br>\
+		Metro Manila, Philippines<br>\
 		"""
 		phone = "(63 2) 914 04 64"
 		fax = "(63 2) 914 04 66"

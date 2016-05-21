@@ -6,16 +6,11 @@
         {{ partial "favicons" . }}
     </head>
     <body id="page-top">
+        {{ partial "nav-child" . }}
 
-        {{ partial "nav-home" . }}
+        {{ partial "contact-form" . }}
+        {{ partial "office-list" . }}
 
-        {{ partial "hero.html" . }}
-        {{ partial "about.html" . }}
-        {{ partial "services.html" . }}
-        {{ partial "portfolio.html" . }}
-        {{ partial "aside.html" . }}
-
-        {{ partial "modals.html" . }}
         {{ partial "footer" . }}
         {{ partial "js.html" . }}
     </body>

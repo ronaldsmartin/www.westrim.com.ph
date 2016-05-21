@@ -1,0 +1,30 @@
+{{ "<!-- Offices-->" | safeHTML }}
+<section id="offices">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Offices</h2>
+                <hr class="primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="embed-responsive embed-responsive-16by9 col-md-12">
+                <iframe class="embed-responsive-item" src="{{ .Params.mapurl }}" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            {{ range .Site.Data.offices }}
+            <div class="col-xs-6 col-sm-4">
+                <h3>{{ .name }}</h3>
+                <address>
+                    <p>{{ markdownify .address }}</p>
+                    {{ with .phone }}
+                    <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
+                    {{ end }}
+                </address>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
