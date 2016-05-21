@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
             </button>
             {{ with .Site.Params.navigation.brand }}
-            <a class="navbar-brand page-scroll" href="#page-top">{{ markdownify . }}</a>
+            <a class="navbar-brand page-scroll" href="/">{{ markdownify . }}</a>
             {{ end }}
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
@@ -18,22 +18,22 @@
             <ul class="nav navbar-nav navbar-right">
                 {{ with .Site.Params.navigation.links.about }}
                 <li>
-                    <a class="page-scroll" href="../#about">{{ . }}</a>
+                    <a class="page-scroll" href="/#about">{{ . }}</a>
                 </li>
                 {{ end }}
                 {{ with .Site.Params.navigation.links.services }}
                 <li>
-                    <a class="page-scroll" href="../#services">{{ . }}</a>
+                    <a class="page-scroll" href="/#services">{{ . }}</a>
                 </li>
                 {{ end }}
                 {{ with .Site.Params.navigation.links.portfolio }}
                 <li>
-                    <a class="page-scroll" href="../#portfolio">{{ . }}</a>
+                    <a class="page-scroll" href="/#portfolio">{{ . }}</a>
                 </li>
                 {{ end }}
                 {{ with .Site.Params.navigation.links.contact }}
                 <li>
-                    <a class="page-scroll" href="../contact">{{ . }}</a>
+                    <a class="page-scroll" href="/contact">{{ . }}</a>
                 </li>
                 {{ end }}
             </ul>
