@@ -22,6 +22,10 @@
                     {{ with .phone }}
                     <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
                     {{ end }}
+                    {{ with .fax }}
+                    <br>
+                    <i class="fa fa-fax" aria-hidden="true"></i>&nbsp;{{ markdownify . }}
+                    {{ end }}
                 </address>
             </div>
             {{ end }}
