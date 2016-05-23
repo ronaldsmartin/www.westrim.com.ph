@@ -125,6 +125,6 @@ Find out what we can bring to your project today.\
 		Pasig City 1605<br>\
 		Metro Manila, Philippines<br>\
 		"""
-		phone = "(63 2) 914 04 64"
-		fax = "(63 2) 914 04 66"
-		email = "info@westrim.com.ph"
+		phone = "[(63 2) 914 04 64](tel:+6329140464)"
+		fax = "[(63 2) 914 04 66](tel:+6329140466)"
+		email = "[info@westrim.com.ph](mailto:info@westrim.com.ph)"
