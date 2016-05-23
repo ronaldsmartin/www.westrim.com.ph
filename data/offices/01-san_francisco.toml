@@ -5,3 +5,5 @@ San Francisco, CA 94103<br/>
 United States<br/>
 """
 phone = "[+1 (415) 437-7330](tel:+14154377330)"
+fax = "[+1 (415) 437–7333](tel:+14154377333)"
+email = "[info@cbengineers.com](mailto:info@cbengineers.com)"
