@@ -47,8 +47,16 @@ copyright = "© 2016 [WestRim, Inc.](/) All rights reserved."
 	# About section
 	[params.about]
 		headline    = "Leaders in sustainable engineering design"
-		description = "We are a full service MEP engineering design firm. Find out how we can complete your project."
-		buttonText  = "Get started!"
+		description = """\
+WestRim, Inc. is a full service MEP engineering design firm building for the future from the \
+heart of Metro Manila.<br><br>
+Since 2008, we have prided ourselves on bringing an unparalleled level of experience and creativity \
+into each and every one of our projects. With the passing of time and the evolution from blue prints \
+to 3D computer models, we have continued to uphold the very same attention to detail and a commitment \
+to our clients that have cemented us as a leader in the design-build world.<br><br>
+Find out what we can bring to your project today.\
+		"""
+		buttonText  = "Learn more"
 
 
 	# Service section
