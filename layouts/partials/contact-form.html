@@ -12,7 +12,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form  action="//formspree.io/{{ with .Site.Params.email }}{{ . }}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
+                <form  action="https://formspree.io/{{ with .Params.form.address }}{{ . }}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -35,17 +35,15 @@
                             </div>
                         </div>
                         <div class="clearfix"></div>
-                        
+                        {{ safeHTML "<!-- Contact Button -->" }}
+                        {{ with .Params.buttontext }}
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-default btn-xl">{{ markdownify . }}</button>
+                        </div>
+                        {{ end }}
                     </div>
                 </form>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                {{ with .Params.buttontext }}
-                <button type="submit" class="btn btn-default btn-xl">{{ markdownify . }}</button>
-                {{ end }}
             </div>
         </div>
     </div>
