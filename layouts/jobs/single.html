@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head" . }}
+        {{ partial "styles-head" . }}
+        {{ partial "favicons" . }}
+    </head>
+    <body id="page-top">
+        {{ partial "nav-child" . }}
+
+        <section id="main">
+          <h1 id="title">{{ .Title }}</h1>
+          <div>
+                <article id="content">
+                   {{ .Content }}
+                </article>
+          </div>
+        </section>
+
+        {{ partial "footer" . }}
+        {{ partial "js.html" . }}
+        <script src="/js/jqBootstrapValidation.js"></script>
+        <script src="/js/contactFormValidation.js"></script>
+    </body>
+</html>
