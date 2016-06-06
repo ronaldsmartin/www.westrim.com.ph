@@ -4,13 +4,17 @@ draft = false
 title = "Jobs"
 type = "jobs"
 
+intro = "The work we do at WestRim, Inc. influences how people live, work, and thrive. Our engineered systems shape city skylines, enable healthier living, and realize our deep respect for the natural environment. We are always excited to work with talented people. Working with us, you can expect not only to deepen your technical abilities, but to grow creatively as well."
+
+callToAction = "At WestRim, we believe that building for communities requires building a collaborative community. If you’re interested in joining our talented, tightly knit team, we’re excited to hear from you!"
+
+[button]
+	link = "/contact"
+	text = "Apply Now"
+
 +++
 
 ## Senior Engineer  
-
-#### About the position 
-
-The work we do at WestRim, Inc. influences how people live, work, and thrive. Our engineered systems shape city skylines, enable healthier living, and realize our deep respect for the natural environment. We are always excited to work with talented people. Working with us, you can expect not only to deepen your technical abilities, but to grow creatively as well. 
 
 We are looking for a Senior Engineer who can apply intensive and diversified knowledge of engineering principles and practices in broad areas. In addition to designing the buildings of tomorrow, you will lead teams of designers and engineers in challenging projects that apply your knowledge of engineering to real world architecture. 
 
@@ -51,15 +55,7 @@ We are looking for a Senior Engineer who can apply intensive and diversified kno
 * Holiday and vacation pay 
  
 
-At WestRim, we believe that building for communities requires building a collaborative community. If you’re interested in joining our talented, tightly knit team, we’re excited to hear from you. To apply, please send your resume and cover letter to Mr. Ariel Verzola at ariel.verzola@westrim.com.ph. 
-
-Page Break 
-
 ## Electrical/Mechanical Engineer (Mid-Level)  
-
-#### About the position 
-
-The work we do at WestRim, Inc. influences how people live, work, and thrive. Our engineered systems shape city skylines, enable healthier living, and realize our deep respect for the natural environment. We are always excited to work with talented people. Working with us, you can expect not only to deepen your technical abilities, but to grow creatively as well. 
 
 We are looking for a Mechanical or Electrical Engineer who can apply intensive and diversified knowledge of engineering principles and practices in broad areas. In addition to designing the buildings of tomorrow, you will work with teams of designers and engineers in challenging projects that apply your knowledge of engineering to real world architecture. 
 
@@ -98,12 +94,7 @@ We are looking for a Mechanical or Electrical Engineer who can apply intensive a
 * Holiday and vacation pay 
 
 
-
 ## Junior Electrical/Mechanical Engineer 
-
-#### About the position 
-
-The work we do at WestRim, Inc. influences how people live, work, and thrive. Our engineered systems shape city skylines, enable healthier living, and realize our deep respect for the natural environment. We are always excited to work with talented people. Working with us, you can expect not only to deepen your technical abilities, but to grow creatively as well. 
 
 We are looking for a Mechanical or Electrical Engineer who can apply intensive and diversified knowledge of engineering principles and practices in broad areas. In addition to designing the buildings of tomorrow, you will work with teams of designers and engineers in challenging projects that apply your knowledge of engineering to real world architecture. 
 
@@ -136,9 +127,4 @@ We are looking for a Mechanical or Electrical Engineer who can apply intensive a
 * Life insurance 
 * Potential flex time arrangement 
 * Holiday and vacation pay 
-
- 
-
-**At WestRim, we believe that building for communities requires building a collaborative community. If you’re interested in joining our talented, tightly knit team, we’re excited to hear from you. To apply, please send your resume and cover letter to Mr. Ariel Verzola at ariel.verzola@westrim.com.ph.**
-
  

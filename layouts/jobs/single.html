@@ -8,14 +8,38 @@
     <body id="page-top">
         {{ partial "nav-child" . }}
 
+        {{ safeHTML "<!-- Intro -->" }}
+        <section class="bg-primary" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">{{ with .Title }}{{ . }}{{ end }}</h2>
+                        <hr class="light">
+                        {{ with .Params.intro }}
+                        <p class="text-faded">{{ markdownify . }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{ safeHTML "<!-- Main -->" }}
         <section id="main">
-          <h1 id="title">{{ .Title }}</h1>
-          <div>
+            <div class="container">
                 <article id="content">
                    {{ .Content }}
                 </article>
-          </div>
+            </div>
         </section>
+
+        {{ safeHTML "<!-- ASIDE -->" }}
+        <aside class="bg-primary">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    {{ with .Params.calltoaction }}<p class="text-faded">{{ . }}</p>{{ end }}
+                    <a href="{{ with .Params.button.link }}{{ . }}{{ end }}" class="btn btn-default btn-xl wow tada">{{ with .Params.button.text }}{{ . }}{{ end }}</a>
+                </div>
+            </div>
+        </aside>
 
         {{ partial "footer" . }}
         {{ partial "js.html" . }}
