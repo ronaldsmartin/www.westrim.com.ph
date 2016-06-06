@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head" . }}
+        {{ partial "styles-head" . }}
+        {{ partial "favicons" . }}
+    </head>
+    <body id="page-top">
+        {{ partial "nav-child" . }}
+
+        {{ safeHTML "<!-- Intro -->" }}
+        <section class="bg-primary" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading">{{ with .Title }}{{ . }}{{ end }}</h2>
+                        <hr class="light">
+                        {{ with .Params.intro }}
+                        <p class="text-faded">{{ markdownify . }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{ safeHTML "<!-- Main -->" }}
+        <section id="main">
+            <div class="container">
+                <article id="content">
+                   {{ .Content }}
+                </article>
+            </div>
+        </section>
+
+        {{ safeHTML "<!-- ASIDE -->" }}
+        <aside class="bg-primary">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    {{ with .Params.calltoaction }}<p class="text-faded">{{ . }}</p>{{ end }}
+                    <a href="{{ with .Params.button.link }}{{ . }}{{ end }}" class="btn btn-default btn-xl wow tada">{{ with .Params.button.text }}{{ . }}{{ end }}</a>
+                </div>
+            </div>
+        </aside>
+
+        {{ partial "footer" . }}
+        {{ partial "js.html" . }}
+        <script src="/js/jqBootstrapValidation.js"></script>
+        <script src="/js/contactFormValidation.js"></script>
+    </body>
+</html>
