@@ -44,6 +44,16 @@
 					</div>
 				</div>
 				{{ end }}
+				<div class="col-sm-3">
+					<div class="footerWidget">
+						<strong>Connect with us:</strong>
+						<ul class="list-inline social-buttons">
+							{{ range .Site.Params.footer.social }}
+							<li class="text-center"><a href="{{ .link }}"><i class="fa {{ .icon }}" aria-hidden="true"></i></a></li>
+							{{ end }}
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

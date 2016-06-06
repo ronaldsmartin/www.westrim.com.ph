@@ -35,6 +35,16 @@ copyright = "© 2016 [WestRim, Inc.](/) All rights reserved."
 			portfolio = "Projects"
 			contact   = "Contact"
 
+	# Footer section
+	[params.footer]
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "https://www.facebook.com/WestRim-Inc-128355997193077/"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "https://www.linkedin.com/company/westrim-inc."
+
 
 	# Hero section
 	[params.hero]
