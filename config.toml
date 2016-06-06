@@ -21,9 +21,6 @@ copyright = "© 2016 [WestRim, Inc.](/) All rights reserved."
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
-	# Optional site credits. If this is set, it'll appear in the footer below the copyright.
-	# credits = "Powered by [Hugo](https://gohugo.io). The source for this site is licensed under Apache 2.0 and [available on GitHub](https://github.com/ronaldsmartin/www.westrim.com.ph)."
-
 
 	# Navigation
 	[params.navigation]
@@ -34,6 +31,19 @@ copyright = "© 2016 [WestRim, Inc.](/) All rights reserved."
 			services  = "Services"
 			portfolio = "Projects"
 			contact   = "Contact"
+
+	# Footer section
+	[params.footer]
+		# Optional site credits. If this is set, it'll appear in the footer below the copyright.
+		credits = "Site powered by [Hugo](https://gohugo.io). The underlying source code is available [on GitHub](https://www.github.com/ronaldsmartin/www.westrim.com.ph) under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "https://www.facebook.com/WestRim-Inc-128355997193077/"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "https://www.linkedin.com/company/westrim-inc."
 
 
 	# Hero section
