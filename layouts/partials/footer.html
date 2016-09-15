@@ -55,12 +55,6 @@
 					</div>
 				</div>
 			</div>
-			{{ with .Site.Params.footer.credits }}
-			{{ safeHTML "<!-- Site Credits -->"}}
-			<div class="row text-center">
-				{{ markdownify . }}
-			</div>
-			{{ end }}
 		</div>
 	</section>
 	<section id="footerRights">
