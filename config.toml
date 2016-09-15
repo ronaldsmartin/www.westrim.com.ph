@@ -35,9 +35,6 @@ googleAnalytics = "UA-84154651-1"
 
 	# Footer section
 	[params.footer]
-		# Optional site credits. If this is set, it'll appear in the footer below the copyright.
-		credits = "Site powered by [Hugo](https://gohugo.io). The underlying source code is available [on GitHub](https://www.github.com/ronaldsmartin/www.westrim.com.ph) under the Apache License 2.0."
-
 		[[params.footer.social]]
 			icon = "fa-facebook"
 			link = "https://www.facebook.com/WestRim-Inc-128355997193077/"
