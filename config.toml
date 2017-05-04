@@ -2,7 +2,7 @@ baseurl = "http://www.westrim.com.ph/"
 languageCode = "en-us"
 title = "WestRim, Inc."
 theme = "hugo-creative-theme"
-copyright = "© 2016 [WestRim, Inc.](/) All rights reserved."
+copyright = "© 2017 [WestRim, Inc.](/) All rights reserved."
 googleAnalytics = "UA-84154651-1"
 
 [params]
