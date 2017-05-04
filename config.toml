@@ -7,55 +7,55 @@ googleAnalytics = "UA-84154651-1"
 
 [params]
 
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
 
-	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-	# for more icons. The icons are represented by their corresponding
-	# CSS class.
+    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+    # for more icons. The icons are represented by their corresponding
+    # CSS class.
 
-	# To provide some metadata for search engines feel free to add a few
+    # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "WestRim, Inc."
-	description = "A leader in sustainable MEP engineering design services, WestRim provides consulting in Mechanical, Electrical, Plumbing and Fire Safety design."
+    name = "WestRim, Inc."
+    description = "A leader in sustainable MEP engineering design services, WestRim provides consulting in Mechanical, Electrical, Plumbing and Fire Safety design."
 
-	# The path must be relative to the static folder
-	favicon = "favicon.ico"
-
-
-	# Navigation
-	[params.navigation]
-		brand = "WestRim"
-
-		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Projects"
-			contact   = "Contact"
-
-	# Footer section
-	[params.footer]
-		[[params.footer.social]]
-			icon = "fa-facebook"
-			link = "https://www.facebook.com/WestRim-Inc-128355997193077/"
-
-		[[params.footer.social]]
-			icon = "fa-linkedin"
-			link = "https://www.linkedin.com/company/westrim-inc."
+    # The path must be relative to the static folder
+    favicon = "favicon.ico"
 
 
-	# Hero section
-	[params.hero]
-		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Engineering beyond borders"
-		subtitle   = "WestRim provides innovative design-build services across the world."
-		buttonText = "Build with us"
+    # Navigation
+    [params.navigation]
+        brand = "WestRim"
+
+        [params.navigation.links]
+            about     = "About"
+            services  = "Services"
+            portfolio = "Projects"
+            contact   = "Contact"
+
+    # Footer section
+    [params.footer]
+        [[params.footer.social]]
+            icon = "fa-facebook"
+            link = "https://www.facebook.com/WestRim-Inc-128355997193077/"
+
+        [[params.footer.social]]
+            icon = "fa-linkedin"
+            link = "https://www.linkedin.com/company/westrim-inc."
 
 
-	# About section
-	[params.about]
-		headline    = "Leaders in sustainable engineering design"
-		description = """\
+    # Hero section
+    [params.hero]
+        # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+        slogan     = "Engineering beyond borders"
+        subtitle   = "WestRim provides innovative design-build services across the world."
+        buttonText = "Build with us"
+
+
+    # About section
+    [params.about]
+        headline    = "Leaders in sustainable engineering design"
+        description = """\
 WestRim, Inc. is a full service MEP engineering design firm building for the future from the \
 heart of Metro Manila.<br><br>
 Since 2006, we have prided ourselves on bringing an unparalleled level of experience and creativity \
@@ -63,23 +63,18 @@ into each and every one of our projects. With the passing of time and the evolut
 to 3D computer models, we have continued to uphold the very same attention to detail and a commitment \
 to our clients that have cemented us as a leader in the design-build world.<br><br>
 Find out what we can bring to your project today.\
-		"""
-		buttonText  = "Learn more"
+        """
+        buttonText  = "Learn more"
 
 
-	# Service section
-	[params.services]
-		headline = "At your service"
+    # Service section
+    [params.services]
+        headline = "At your service"
 
         [[params.services.list]]
             icon = "fa-building-o"
             title = "MEP Engineering"
             description = "HVAC, plumbing, electrical, lighting, and control systems, building automation, mission critical systems, emergency generator and UPS systems, fire and life safety systems, and waste disposal systems."
-
-        [[params.services.list]]
-            icon = "fa-flash"
-            title = "Utilities"
-            description = "Residential and commercial utility design, fast-tracking utility applications, utility tariffs and contracts review, joint trench and pole coordination, infrastructure cost estimating."
 
         [[params.services.list]]
             icon = "fa-group"
@@ -91,48 +86,48 @@ Find out what we can bring to your project today.\
             title = "Telecommunications Design"
             description = "Voice, data, audio, CATV, CCTV, security, tele-video conferencing and paging systems, networking, campus communication distribution systems, backbone risers and horizontal distribution systems."
 
-		[[params.services.list]]
+        [[params.services.list]]
             icon = "fa-leaf"
             title = "Sustainability Consulting"
             description = "We implement sustainable design and green building practices. We provide consulting service for Leadership in Energy and Environmental Design (LEED) certification, energy modeling, alternative energy source, indoor air quality, water conservation, daylighting, site solar orientation, MEP commissioning, emerging technologies & distributed electrical generators."
 
         [[params.services.list]]
             icon = "fa-pencil"
-            title = "Building "
+            title = "Drafting"
             description = "High quality, cost effective Computer-Aided Design and Drafting (CADD) Services for Architectural, Mechanical, Electrical and Plumbing."
 
 
 
 
     # Portfolio modals
-	[params.portfolio.modal]
+    [params.portfolio.modal]
         client = "Client"
         date = "Date"
         category = "Category"
         buttonText = "Close"
 
     # Aside section
-	[params.aside]
-		headline = "Learn more"
+    [params.aside]
+        headline = "Learn more"
 
-		[params.aside.button]
-			text = "Contact WestRim"
-			link = "/contact"
+        [params.aside.button]
+            text = "Contact WestRim"
+            link = "/contact"
 
-	# Contact section and footer
-	[params.contact]
-		headline = "Let's connect"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-		summary = """\
-		**WestRim, Inc.** is an engineering design firm providing consulting services in MEP design since 2006.<br>\
-		We are a subsidiary of [CB Engineers](http://cbengineers.com) proudly located in Metro Manila, Philippines.
-		"""
-		address = """\
-		#805 West Tower, PSE Building<br>\
-		Exchange Road, Ortigas Center<br>\
-		Pasig City 1605<br>\
-		Metro Manila, Philippines<br>\
-		"""
-		phone = "[(63 2) 914 04 64](tel:+6329140464)"
-		fax = "[(63 2) 914 04 66](tel:+6329140466)"
-		email = "[info@westrim.com.ph](mailto:info@westrim.com.ph)"
+    # Contact section and footer
+    [params.contact]
+        headline = "Let's connect"
+        description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+        summary = """\
+        **WestRim, Inc.** is an engineering design firm providing consulting services in MEP design since 2006.<br>\
+        We are a subsidiary of [CB Engineers](http://cbengineers.com) proudly located in Metro Manila, Philippines.
+        """
+        address = """\
+        #805 West Tower, PSE Building<br>\
+        Exchange Road, Ortigas Center<br>\
+        Pasig City 1605<br>\
+        Metro Manila, Philippines<br>\
+        """
+        phone = "[(63 2) 914 04 64](tel:+6329140464)"
+        fax = "[(63 2) 914 04 66](tel:+6329140466)"
+        email = "[info@westrim.com.ph](mailto:info@westrim.com.ph)"
